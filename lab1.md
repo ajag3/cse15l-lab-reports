@@ -17,7 +17,7 @@ The `zz` should be your own personal two letters. To find what you login is go t
 
 After logging in this should show up on your terminal. 
 
-![Image3](Successful_login_to_ssh.png)
+![Image3](successful_login_to_ssh.png)
 
 # Step 3
 
@@ -31,5 +31,10 @@ After succesfully logging in you are supposed to run some commands. The commands
 + `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
 + `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 
-Unfortunately, I could not go this step because my password never worked so I could not successfully log in.
+These are a couple commands I put in: 
+![Image4](commands.png)
+
+The `ls -lat` command lists the names and features of files and directories.
+The `ls -a` command is used to list contents of present working directory. 
+The `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` prints hello.
 
