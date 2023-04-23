@@ -15,9 +15,9 @@ or go to the top of your computer and click terminal and then click new terminal
 The `zz` should be your own personal two letters. To find what you login is go to https://sdacs.ucsd.edu/~icc/index.php. Then log in with your username and student id and see what your account name is and fill in the zz with your two letters. After typing that a message will appear and type yes after the message appears. Then it will ask you for the password. 
 ![Image2](image2.png)
 
-This is where I got stuck. I could not go past this password phase no matter how many passwords I tried or how long I waited. 
+After logging in this should show up on your terminal. 
 
-![Image3](Image3.png)
+![Image3](Successful_login_to_ssh.png)
 
 # Step 3
 
