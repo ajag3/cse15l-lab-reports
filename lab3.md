@@ -1,8 +1,8 @@
 # CSE 15L Lab Report 3
 
-The command I am choosing is grep. 
+The command I am choosing is `grep`. 
 
-The first command is grep -R: 
+##### The first command is `grep -R`: 
 ``` 
 aj@Akhils-MacBook-Pro 911report % grep -R "Sally"        
 ./chapter-7.txt:                to "Sally"-a coded instruction to Binalshibh to send funds to Zacarias Moussaoui.
@@ -11,9 +11,9 @@ aj@Akhils-MacBook-Pro 911report % grep -R "Sally"
 aj@Akhils-MacBook-Pro 911report % grep -R "views" preface.txt
 preface.txt:                considered the views of others. We hope our report will encourage our fellow
 ```
-The command grep -R recursively searches for text in all files in a directory and its subdirectories. 
+The command `grep -R` recursively searches for text in all files in a directory and its subdirectories. 
 
-The second command is grep -E:
+##### The second command is `grep -E`:
 ```
 aj@Akhils-MacBook-Pro 911report % grep -E "views|Sally" chapter-7.txt
                 sympathetic to those extremist views. During a post-9/11 search of his possessions,
@@ -32,9 +32,9 @@ aj@Akhils-MacBook-Pro 911report % grep -E "views|report" preface.txt
                 inevitably will come to light. We present this report as a foundation for a better
                 considered the views of others. We hope our report will encourage our fellow
 ```
-The command grep -E is like the normal function but it allows you to look up two words and not only one. 
+The command `grep -E` is like the normal function but it allows you to look up two words and not only one. 
 
-The third command is grep -c: 
+##### The third command is `grep -c`: 
 ```
 aj@Akhils-MacBook-Pro 911report % grep -c "views" preface.txt
 1
@@ -43,9 +43,9 @@ aj@Akhils-MacBook-Pro 911report % grep -c "views" preface.txt
 aj@Akhils-MacBook-Pro biomed % grep -c "of" 1471-2091-3-23.txt
 117
 ```
-The command grep -c displays only the count of matching lines and not the actual lines themselves. 
+The command `grep -c` displays only the count of matching lines and not the actual lines themselves. 
 
-The fourth command is grep -B and grep -A: 
+##### The fourth command is `grep -B` and `grep -A`: 
 ```
 aj@Akhils-MacBook-Pro biomed % grep -B 3 -A 3 "Polymerase" 1471-2091-3-23.txt
         Proteins recognizing specific DNA sequences play an
@@ -82,8 +82,8 @@ aj@Akhils-MacBook-Pro 911report % grep -B 2 -A 2 "agencies" preface.txt
                 have searched records and produced a multitude of documents for us. We thank
                 officials, past and present, who were generous with their time and provided us with
 ```
-The command grep -B and grep -A display lines before and after the matching lines. The number I chose are the lines it shows before and after.
+The command `grep -B` and `grep -A` display lines before and after the matching lines. The number I chose are the lines it shows before and after.
 So for the first example it was three and the second examples it was two. 
 
 
-To find these commands I used chatGPT. 
+To find these commands I used chatGPT, I asked ChatGPT what other similar comands to grep there were and it gave me a list of six. After reading that list I wanted to know more commands so I asked it for more examples that are similar. It gave me six more and picked the four that I liked. 
