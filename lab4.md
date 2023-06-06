@@ -12,12 +12,13 @@ Then my next command was:
 ```
 git clone https://github.com/ajag3/lab7.git <enter>
 ```
-To run the tests to see them fail I typed out:
+![Image2](gitclone.png)
+To run the tests to see them fail I copied and pasted:
 ```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
-![Image2](1fail.png)
+![Image3](compile&fail.png)
 
 To fix the code the keys I pressed were:
 ```
@@ -31,7 +32,7 @@ i (insert)
 2 <esc>
 :wq <Enter>
 ```
-![Image3](fixedindex.png)
+![Image4](fixedindex.png)
 
 To check if the tests ran properly I clicked:
 ```
@@ -40,12 +41,15 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>
 <up><up><up><up><enter> 
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests <enter>
 ```
-![Image4](fixedtests.png)
+![Image5](fixedtests.png)
 
 Finally to commit and push the resulting change to your Github account I typed: 
 ```
-git commit -a
+git status
+git add
+git commit -m "Changed 1 to 2"
+git push
 ```
-![Image5](committed.png)
+![Image6](committed1.png)
 
 
